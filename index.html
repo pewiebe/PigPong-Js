@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <!-- Adicione o arquivo CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">    
+    <!-- Adicione o arquivo Bootstrap JavaScript -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas" width="600" height="400"></canvas>
+    </div>
+    <div class="button">
+        <button id="start-btn" class="btn">Começar</button>
+          <button id="pause-btn" class="btn">Pausar</button>
+          <button id="restart-btn" class="btn">Resetar</button>
+        </div>
+        <p class="control">Controle: Jogador Esquerdo(W e S) | Direito do jogador(↑ e ↓)</p>
+        <!-- Adicione um elemento modal com um ID -->
+        <div class="modal" tabindex="-1" role="dialog" id="message-modal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <h5 id="message"></h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" id="message-modal-close" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+    </body>
+    <footer>
+      <p>&copy; 2023 - Todos os direitos reservados para o Pewiebe</p>
+   </footer>
+   
+</html>
